@@ -25,7 +25,7 @@
 # s.split("/")[-1]
 
 # Refactor - Move function to different .py file 
-# still need to locate in same folder with main.py
+# still need to locate in sub folder but under same main folder with main.py
 # How to refactor
 # 1.right click on function name and select Refactor
 # 2.Then select Move symbol to new file.

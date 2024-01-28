@@ -1,3 +1,5 @@
+import httpx
+
 
 def get_cat_ids(n: int)->list[dict]:
     ret = []
@@ -10,4 +12,3 @@ def get_cat_ids(n: int)->list[dict]:
                 "ext": r.json()["mimetype"].split("/")[-1]
         })
     return ret
-print(get_cat_ids(3))
