@@ -1,4 +1,3 @@
-import httpx
 
 def get_cat_ids(n: int)->list[dict]:
     ret = []
