@@ -1,12 +1,15 @@
 # 42_python_module
  pull picture from web
 
+1. SET UP ENV.
 # https://www.youtube.com/watch?v=Z00phjj4u74
 # set up .venv for python
+# After install will get folder .venv and .vcode
 
-#install package 
-#1. open terminal
-#2. type into> py -m pip install package_name
+
+2. install package lib
+# open project folder terminal
+# type into> py -m pip install package_name
 
 # import httpx > lib support web scraping
 # type in terminal to install >> pip install httpx 
@@ -24,11 +27,13 @@
 # s = "image/jpeg"
 # s.split("/")[-1]
 
-# Refactor - Move function to different .py file 
-# still need to locate in sub folder but under same main folder with main.py
-# How to refactor
+Refactor - Move function to different .py file 
+1.Folder preparation.
+still need to locate in sub folder but still under same main project folder with main.py
+2.How to refactor
 # 1.right click on function name and select Refactor
 # 2.Then select Move symbol to new file.
 # 3.vs code will auto locate function paragraph to new file.py or user #  #   can select file name to move.
 # 4.then vs code replace with 
 #    from new_function_file_path import function_name
+
