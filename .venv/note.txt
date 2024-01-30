@@ -37,3 +37,6 @@ still need to locate in sub folder but still under same main project folder with
 # 4.then vs code replace with 
 #    from new_function_file_path import function_name
 
+Set time out
+# if code process longer than X min/sec. timeout will terminal the running
+to avoid hangout process (defualt = 5 seconds)
